@@ -4,7 +4,7 @@
 TO RUN ON YOUR SYSTEM(KALI LINUX)
 
 COMPILE FIRST USING
-`gcc -o pdca pdca.c`
+`gcc -o PDCAES PDCAES.c -lssl -lcrypto`
 
 THEN EXECUTE USING
-`./pdca`
+`./PDCAES`
